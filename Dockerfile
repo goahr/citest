@@ -3,7 +3,7 @@ FROM golang:latest as builder
 # go mod
 ENV GO111MODULE on
 ENV CGO_ENABLED=0
-ENV GOPROXY https://goproxy.cn,direct
+# ENV GOPROXY https://goproxy.cn,direct
 
 # 工作目录
 WORKDIR /app
